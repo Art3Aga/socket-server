@@ -5,7 +5,7 @@ import cors from 'cors';
 
 
 
-const server = new Server();
+const server = Server.instancia;
 
 //BodyParser
 server.app.use(bodyparser.urlencoded({ extended: true }));
